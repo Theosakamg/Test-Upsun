@@ -21,7 +21,7 @@ applications:
     relationships:
       mariadb:
         service: "mariadb"
-        endpoint: "mariadb:mysql"
+        endpoint: "mysql"
       
 
     # Mounts define directories that are writable after the build is complete.
